@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Recorder Pro",
+  "version": "1.0.0",
+  "description": "High-quality screen recording at 720p 30fps or 1080p 60fps.",
+  "permissions": [
+    "offscreen",
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Record Screen"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "assets/favicon.png",
+    "48": "assets/favicon.png",
+    "128": "assets/favicon.png"
+  }
+}
